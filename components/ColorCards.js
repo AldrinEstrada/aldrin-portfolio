@@ -1,6 +1,6 @@
 
 import React from 'react';
-import styles from '@/styles/colorCards.module.css';
+import styles from '@/styles/ColorCards.module.css';
 
 const ColorCards = ({ title, content, color }) => {
   return (

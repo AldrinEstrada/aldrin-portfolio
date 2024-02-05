@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/cocoon.module.css'
-import ColorCards from '/components/colorCards'
+import ColorCards from '/components/ColorCards'
 
 
 export default function Cocoon() {
