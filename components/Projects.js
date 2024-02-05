@@ -1,6 +1,7 @@
 import styles from '@/styles/Projects.module.css'
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link'
 
 const Projects = ({ imagePath, title, description, button }) => (
   <div>
@@ -13,7 +14,10 @@ const Projects = ({ imagePath, title, description, button }) => (
         <h4>Case Study</h4>
         <p>{description}</p>
       </div>
-      <button className={styles.projectButton}>View Project</button>
+      
+      <Link href="/cocoon">
+        <button className={styles.projectButton}>View Project</button>
+      </Link>
     </div>
   </div>
 );

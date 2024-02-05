@@ -1,8 +1,8 @@
 .header {
-    width: 100vw;
+    width: 99vw;
     height: 450px; /* Adjust the height as needed */
-    background-color: #9DDBC1; /* Change the background color as needed */
-    color: #fff; /* Change the text color as needed */
+    background-color: #9DDBC1; 
+    color: #fff; 
     display: flex;
 
 }
@@ -19,47 +19,54 @@
     top: 19%;
 }
 
-.roleInfo {
-    position: absolute;
-    min-width: 30%;
+.mainContent {
     display: flex;
     flex-direction: column;
-    top: 75%;
-    left: 18%;
-    color:#fff
+    gap: 70px;
+}
+
+.overview {
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    gap: 3%;
+    padding-top: 3%;
+
+}
+
+
+.roleInfo {
+
+    display: flex;
+    flex-direction: column;
+
+    color:#fff;
+    width: 28%;
+
 
 }
 
 .role {
     display: flex;
     flex-direction: row;
+    gap: 5%;
+    align-items: center;
 
 }
 
-.roleName {
-    position: absolute;
-    min-width: fit-content;
-    display: flex;
-    left: 44%;
-    top: 8%;
-}
 
-.skills {
-    position: absolute;
-    display: flex;
+.skills {    display: flex;
     flex-direction: row;
-    row-gap: 90px;
-    top: 75%;
+    gap: 3%;
+    align-items: center;
+
 }
 
 .tags {
-    gap: 5%;
-    position: absolute;
+    gap: 3%;
     display: flex;
     flex-direction: row;
-    top: 25%;
-    left: 110%;
-    min-width: 50%;
+
 }
 
 .label {
@@ -73,114 +80,133 @@
 }
 
 
+
 .projectIntro {
-    position: absolute;
-    display: flex;
     max-width: 28%;
-    right: 18%;
-    top: 75%;
     color:#fff;
 }
 
-
-.introImages {
-    position: absolute;
+.overviewVid {
+    align-self: center;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    top: 110%;
-    gap: 9%;
-    left: 18%;
 }
+
 
 .projectDescription {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top:175%;
     align-items: center;
-    max-width: 27%;
     justify-content: center;
-    left: 37%;
+    align-self: center;
+    max-width: 59%;
     color:#fff;
 
 }
 
-.cocoonProcess {
-    position: absolute;
+.challenge {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    max-width: 59%;
+    color:#fff;
+}
+
+.design {
     display: flex;
     flex-direction: column;
-    top: 205%;
-    left: 18%;
+    align-self: center;
+    max-width: 59%;
+    color:#fff;
+    gap: 30px;
+}
+
+.lofiImages {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.lofiImages1 {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+
+}
+
+.lofiImages2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hifi {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hifiImages {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hifiImages1 {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+
+}
+
+.hifiImages2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.colorCardsList {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.styleGuide {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+
+.logoImages {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.end {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.endFinalImages {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
-
 }
 
-.featuresList ul {
-    list-style-type: none; /* Remove default list styles */
-    padding: 0; 
+.endImages1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
 }
 
-.featuresList li {
-    margin-bottom: 6%; 
-    padding: 8px;
-    background-color: #165e6e;
-    border-radius: 8px;
-    height:fit-content;
-    min-width: fit-content;
-    font-size: small;
-
-}
-
-
-.features {
-    position: absolute;
-    top: 225%;
-    right: 18%;
-    max-width: 23%;
-    color:#fff;
-
-}
-
-.designJourney {
-    position: absolute;
-    top: 290%;
-    right: 45%;
-    color:#fff;
-}
-
-.gallery {
-    position: absolute;
-    top: 306%;
-    left: 18%;
-}
-
-.projectHistory {
-    position:absolute;
-    top: 360%;
-    left: 35%;
-    max-width: 32%;
-    color:#fff;
-
-}
-
-.challenges {
-    position:absolute;
-    top: 390%;
-    left: 18%;
-    color:#fff;
-}
-
-.challengeDescription {
-    max-width: 40%;
-}
-
-.lessons {
-    position:absolute;
-    top: 430%;
-    left: 18%;
-    color:#fff;
-}
-
-.lessonsDescription {
-    max-width: 40%;;
+.endImages2 {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
 }
